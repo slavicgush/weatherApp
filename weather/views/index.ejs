@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="home.js"></script>
+</head>
+<body>
+  <div id="head"><h1>Weather App</h1></div>
+  <nav>
+    <input type="text" id="searchInput" placeholder="search a city..."><button id="search">Search</button><span id="action"></span>
+  </nav>
+   <main id="main"> 
+    <section id="notfound"></section>
+    <h1 id="related">Related Search</h1>
+    <section id="display">
+      <!-- <img src="data:image/jpg;base64, <%= weatherImg %> " alt="" /> -->
+      
+      <div>Address: <span id="resolvedAddress"></span></div>
+      <div>Latitude: <span id="latitude"></span></div>
+      <div>Longitude: <span id="longitude"></span></div>
+      <div>Timezone: <span id="timezone"></span></div>
+      <div>Time: <span id="datetime"></span></div>
+      <div>Temp: <span id="temp"></span> &#176C</div>
+      <div>Humidity: <span id="humidity"></span> %</div>
+      <div>Pressure: <span id="pressure"></span> hPa</div>
+      <div>Wind Speed: <span id="windspeed"></span> m/s</div>
+      <div>visibility: <span id="visibility"></span></div>
+      <div>Cloud Cover: <span id="cloudcover"></span></div>
+      <div>Solar Radiation: <span id="solarradiation"></span></div>
+      <div>Solar Energy: <span id="solarenergy"></span></div>
+      <div>Conditions: <span id="conditions"></span></div>
+      <div>Sunrise: <span id="sunrise"></span></div>
+      <div>Sunset: <span id="sunset"></span></div>
+    </section>
+    <section id="forecast">
+      <h1>Weather ForeCast</h1>
+    </section>
+   </main>
+
+  </body>
+  </html>
